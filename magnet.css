@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 html, body {
   width: 100%;
   height: 100%;
@@ -7,7 +5,7 @@ html, body {
   align-items: center;
   justify-content: center;
   background-color: #f1f1f1;
-  font-family: 'Raleway', serif;
+  font-family: monospace;
 }
 
 a {
@@ -18,6 +16,8 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  border-width:10px;
+  border-color:red;
   cursor: pointer;
 }
 
